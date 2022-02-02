@@ -1,0 +1,35 @@
+.navbar {
+  width: 100%;
+  background-color: var(--elements-color);
+  color: var(--text-color);
+  box-shadow: 1px 1px 10px var(--shadow-color);
+}
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img{
+  width: 60px;
+  height: 60px;
+}
+.logo h2 {
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.themeSwitch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 15px;
+}
+.themeSwitch span {
+  margin-left: 5px;
+}

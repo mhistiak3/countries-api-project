@@ -1,0 +1,106 @@
+.detailsPage {
+  width: 100%;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 100px 0;
+}
+.alertMessage {
+  text-align: center;
+  padding: 200px 0;
+  font-size: 40px;
+}
+.btn {
+  padding: 10px 40px;
+  background-color: var(--elements-color);
+  cursor: pointer;
+  color: var(--text-color);
+  box-shadow: 1px 1px 10px var(--shadow-color);
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.btn span {
+  margin-left: 5px;
+}
+.countryDetails {
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: 6fr 8fr;
+}
+.countryImg img {
+  width: 100%;
+   box-shadow: 1px 1px 10px var(--shadow-color);
+}
+.countryInfo {
+  padding-left: 100px;
+  padding-top: 40px;
+}
+.countryInfo h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+.shotDetails {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8px;
+}
+.shotDetails h4 {
+  font-weight: 600;
+  font-size: 16px;
+}
+.shotDetails h4 span {
+  font-weight: 200;
+  font-size: 15px;
+}
+.borders {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.borders span {
+  font-weight: 600;
+  margin-right: 5px;
+}
+.borderCountry {
+  padding: 6px 20px;
+  background-color: var(--elements-color);
+  cursor: pointer;
+  color: var(--text-color);
+  box-shadow: 1px 1px 10px var(--shadow-color);
+  font-size: 14px;
+  font-weight: 400 !important;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: 5px !important;
+  text-decoration: none;
+}
+@media (max-width: 950px) {
+  .detailsPage {
+    padding: 50px 0;
+  }
+  .countryDetails {
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .countryImg {
+    margin-bottom: 40px;
+  }
+  .countryInfo {
+    padding: 0;
+  }
+}
+@media (max-width: 700px) {
+  .shotDetails {
+    grid-template-columns: 1fr;
+    justify-content: start;
+  }
+}

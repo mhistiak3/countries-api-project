@@ -1,0 +1,41 @@
+/*
+- Dark Blue (Dark Mode Elements): hsl(209, 23%, 22%)
+- Very Dark Blue (Dark Mode Background): hsl(207, 26%, 17%)
+- Very Dark Blue (Light Mode Text): hsl(200, 15%, 8%)
+- Dark Gray (Light Mode Input): hsl(0, 0%, 52%)
+- Very Light Gray (Light Mode Background): hsl(0, 0%, 98%)
+- White (Dark Mode Text & Light Mode Elements): hsl(0, 0%, 100%)
+ */
+:root {
+  --background-color: hsl(207, 26%, 17%);
+  --text-color: hsl(0, 0%, 100%);
+  --elements-color: hsl(209, 23%, 22%);
+  --shadow-color:hsla(0, 0%, 30%, 0.2);
+}
+[data-theme="light"] {
+  --shadow-color:hsla(203, 26%, 16%, 0.2);
+  --background-color:  hsl(0, 0%, 98%);
+  --text-color: hsl(200, 15%, 8%);
+  --elements-color: hsl(0, 0%, 100%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+}
+body{
+  font-family: 'Nunito Sans', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 90%;
+  margin: auto;
+}
+
+
+.spacer{
+  padding-bottom: 400px;
+}
