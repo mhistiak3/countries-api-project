@@ -30,7 +30,7 @@ This is a solution to the [REST Countries API with color theme switcher challeng
 Clone the project
 
 ```bash
-  gh clone https://github.com/mhistiak3/Modern-PWA-TODO.git
+  git clone https://github.com/mhistiak3/countries-api-project.git
 ```
 
 Go to the project directory
